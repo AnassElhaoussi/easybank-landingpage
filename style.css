@@ -17,6 +17,10 @@ html {
 }
 
 .nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
@@ -33,6 +37,7 @@ html {
 
 .links {
   position: absolute;
+  top: 2rem;
   right: 36%;
 }
 
@@ -72,31 +77,32 @@ html {
 .main-sct {
   display: flex;
   background-color: rgb(248, 248, 248);
+  padding-bottom: 13rem;
 }
 
 .main-container {
-  margin: 12rem;
+  margin: 16rem;
 }
 
 .main-title {
   font-size: 5rem;
-  width: 80%;
+  width: 60%;
   font-weight: 400;
   opacity: 0.9;
 }
 
 .main-paragraph {
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-size: 1.4rem;
-  opacity: 0.8;
+  opacity: 0.7;
   line-height: 2rem;
-  width: 63%;
+  width: 40%;
 }
 
 .main-req-invite {
   position: absolute;
-  bottom: 30%;
-  left: 9%;
+  bottom: 21rem;
+  left: 11.2%;
   font-size: 1.1rem;
   text-decoration: none;
   background-color: rgb(31, 228, 90);
@@ -113,11 +119,65 @@ html {
 }
 
 .main-img {
-  position: relative;
+  position: absolute;
   top: 2rem;
   right: 10rem;
   height: auto;
   width: 40%;
+}
+
+.about-sct {
+  background-color: rgb(238, 238, 238);
+}
+
+.about-container {
+  padding: 8%;
+}
+
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.about-paragraph {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  width: 43%;
+  line-height: 2rem;
+  opacity: 0.7;
+}
+
+.cards {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.card {
+  margin-right: 8rem;
+  transition: 0.7s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card svg {
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.card-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  opacity: 0.7;
+  width: 100%;
 }
 
 @media (max-width: 760px) {
@@ -133,9 +193,10 @@ html {
     height: 40rem;
     right: 0;
     opacity: 0;
-    top: 8rem;
+    top: 6rem;
     padding-top: 2rem;
     background-color: rgb(31, 228, 90);
+    z-index: 999;
   }
 
   .isactive {
