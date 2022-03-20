@@ -69,6 +69,7 @@ html {
 
 .req-invite:hover {
   transform: scale(1.1);
+  background-color: rgb(0, 195, 255);
 }
 .nav-btn {
   opacity: 0;
@@ -102,7 +103,7 @@ html {
 .main-req-invite {
   position: absolute;
   bottom: 21rem;
-  left: 11.2%;
+  left: 12%;
   font-size: 1.1rem;
   text-decoration: none;
   background-color: rgb(31, 228, 90);
@@ -116,6 +117,7 @@ html {
 
 .main-req-invite:hover {
   transform: scale(1.1);
+  background-color: rgb(0, 195, 255);
 }
 
 .main-img {
@@ -124,6 +126,11 @@ html {
   right: 10rem;
   height: auto;
   width: 40%;
+  transition: 0.7s ease;
+}
+
+.main-img:hover {
+  transform: scale(1.1);
 }
 
 .about-sct {
@@ -160,6 +167,7 @@ html {
 
 .card:hover {
   transform: scale(1.1);
+
 }
 
 .card svg {
@@ -230,7 +238,8 @@ html {
 
 
 .blog-card-subtitle {
-  opacity: 0.9;
+  font-size: 1.1rem;
+  opacity: 0.7;
   margin-bottom: 0.5rem;
 }
 
@@ -248,6 +257,78 @@ html {
   width: 80%;
   opacity: 0.7;
 }
+
+
+.footer-sct {
+  background-color: hsl(233, 26%, 24%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-container {
+  margin-left: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+
+.sections {
+  display: flex;
+  margin-top: 0.6rem;
+}
+
+.sct-1 {
+  margin-right: 4rem;
+}
+
+.sct-1 h3, .sct-2 h3{
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 400;
+  margin-top: 1rem;
+  opacity: 0.9;
+   
+}
+
+
+.more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3rem;
+}
+
+.footer-req-invite {
+  font-size: 1.1rem;
+  text-decoration: none;
+  background-color: rgb(31, 228, 90);
+  padding: 1rem 2rem;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  border-radius: 2rem;
+  transition: 0.5s ease-in-out;
+
+}
+
+.copyrights {
+  color: white;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
 @media (max-width: 760px) {
   .req-invite {
     margin-right: 4rem;
