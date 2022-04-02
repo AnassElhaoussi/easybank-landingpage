@@ -70,6 +70,7 @@ html {
 .req-invite:hover {
   transform: scale(1.1);
   background-color: rgb(0, 195, 255);
+  padding-right: 3rem;
 }
 .nav-btn {
   opacity: 0;
@@ -93,7 +94,7 @@ html {
 }
 
 .main-paragraph {
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-size: 1.4rem;
   opacity: 0.7;
   line-height: 2rem;
@@ -102,8 +103,7 @@ html {
 
 .main-req-invite {
   position: absolute;
-  bottom: 21rem;
-  left: 12%;
+  margin-top: 3rem;
   font-size: 1.1rem;
   text-decoration: none;
   background-color: rgb(31, 228, 90);
@@ -118,6 +118,7 @@ html {
 .main-req-invite:hover {
   transform: scale(1.1);
   background-color: rgb(0, 195, 255);
+  padding-right: 3rem;
 }
 
 .main-img {
@@ -260,6 +261,7 @@ html {
 
 
 .footer-sct {
+  
   background-color: hsl(233, 26%, 24%);
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -323,10 +325,35 @@ html {
 
 }
 
+.footer-req-invite:hover {
+  background-color: rgb(0, 195, 255);
+
+}
+
 .copyrights {
   color: white;
   font-weight: 300;
   opacity: 0.8;
+}
+
+@media (max-width:1025px){
+   .main-img {
+     left: 60%;
+   }
+
+
+   .card-paragraph {
+     width: 90%;
+    
+   }
+
+   .blog-card {
+     padding-bottom: 14rem;
+   }
+
+   .blog-card-title {
+     width: 80%;
+   }
 }
 
 @media (max-width: 760px) {
