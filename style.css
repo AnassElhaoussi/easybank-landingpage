@@ -356,7 +356,59 @@ html {
    }
 }
 
+
+@media (max-width:900px) {
+
+  
+  .links {
+    position: absolute;
+    right: 30%;
+  }
+
+  .main-paragraph {
+    width: 50%;
+  }
+
+  .main-img {
+    top: 6rem;
+    width: 50%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .card {
+    margin-bottom: 5rem;
+    
+  }
+
+  .card-paragraph {
+    width: 60%;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    opacity: 0.6;
+  }
+
+  .blog-cards {
+    flex-wrap: wrap;
+  }
+
+  .blog-card {
+    margin-bottom: 3rem;
+    width: 30%;
+  }
+}
+
 @media (max-width: 760px) {
+
+  
+   
+
+
   .req-invite {
     margin-right: 4rem;
   }
@@ -398,6 +450,21 @@ html {
     right: 2rem;
     top: 2.3rem;
     cursor: pointer;
+  }
+
+
+  .main-img {
+    width: 0;
+  }
+
+  
+
+  .main-title {
+    width: 150%;
+  }
+
+  .main-paragraph {
+    width: 100%;
   }
 }
 
